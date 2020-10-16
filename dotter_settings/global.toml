@@ -1,0 +1,3 @@
+# emacs files
+[emacs.files]
+spacemacs = "~/.spacemacs"
