@@ -1,3 +1,5 @@
+set nocompatible
+filetype plugin indent on
 set number relativenumber
 set nu rnu
 set nowrap " dont wrap lines
