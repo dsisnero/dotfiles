@@ -4,3 +4,6 @@ spacemacs = "~/.spacemacs"
 
 [vim.files]
 vimrc = "~/.vimrc"
+
+[nvim.files]
+nvim = "~/config/nvim/init.vim"
