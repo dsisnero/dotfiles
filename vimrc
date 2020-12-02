@@ -1,6 +1,6 @@
 set nocompatible
+filetype plugin indent on "Activate filetype detection
 syntax on "Enable syntax highlighting
-filetype plugin indent on
 runtime macros/matchit.vim
 
 set number relativenumber
@@ -36,6 +36,7 @@ call minpac#add('tpope/vim-unimpaired')
 call minpac#add('tpope/vim-scriptease', {'type': 'opt'})
 call minpac#add('junegunn/fzf')
 call minpac#add('junegunn/fzf.vim')
+call minpac#add('kana/vim-textobj-user')
 call minpac#add('vim-ruby/vim-ruby')
 call minpac#add('tek/vim-textobj-ruby')
 
