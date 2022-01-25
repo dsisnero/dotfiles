@@ -1,0 +1,6 @@
+[emacs.files]
+spacemacs = "c:/Users/Dominic E Sisneros/.spacemacs"
+
+[nvim.files]
+nvim = "c:/Users/Dominic E Sisneros/AppData/Local/nvim/init.vim"
+
