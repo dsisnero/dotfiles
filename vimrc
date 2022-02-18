@@ -58,6 +58,10 @@ call minpac#init()
 call minpac#add('k-takata/minpac', {'type': 'opt'})
 call minpac#add('tpope/vim-unimpaired')
 call minpac#add('tpope/vim-scriptease', {'type': 'opt'})
+call minpac#add('tpope/vim-surround')
+call minpac#add('tpope/vim-commentary')
+call minpac#add('tpope/vim-dispatch')
+call minpac#add('github/copilot.vim')
 call minpac#add('junegunn/fzf')
 call minpac#add('junegunn/fzf.vim')
 call minpac#add('kana/vim-textobj-user')
@@ -74,7 +78,7 @@ call minpac#add('adelarsq/vim-matchit')
 
 
 " add commands for minpac
-command! PackUpdate callvminpac#update()
+command! PackUpdate call minpac#update()
 command! PackClean call minpac#clean()
 
 " ESC in NEOVIM for fzf window
